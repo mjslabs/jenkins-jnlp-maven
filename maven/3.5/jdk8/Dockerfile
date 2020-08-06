@@ -13,6 +13,4 @@ ENV JAVA_HOME /docker-java-home
 ENV MAVEN_HOME /usr/share/maven
 ENV PATH "${MAVEN_HOME}/bin:${PATH}"
 
-WORKDIR ${HOME}
-
 LABEL maintainer="info@mjslabs.com"
